@@ -53,7 +53,6 @@ namespace startClient
                 this.checkBox1.Enabled = false;
                 this.checkBox2.Enabled = false;
                 thread = new Thread(new ThreadStart(Main.main)) { IsBackground = true };
-                thread.IsBackground = true;
                 thread.Start();
                 button2.Enabled = true;
             }
